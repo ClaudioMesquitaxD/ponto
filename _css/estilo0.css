@@ -1,0 +1,523 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #cecece;
+	overflow-x:hidden;
+}
+/* nav cima */
+#menucima1 {
+	width: 100%;
+	background: #A14E24;
+	box-shadow: 0 8px 8px #cecece;
+}
+nav#menucima {
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+}
+
+#content {
+	width: 100%;
+	max-width: 997px;
+	position: relative;
+	margin: 0 auto;
+}
+
+label#ITEVA {
+	position: relative;
+	color: white;
+	top: 10px;
+	left: 20px;
+}
+
+label#BV {
+	position: relative;
+	top: 10px;
+	float: right;
+	right: 210px;
+	color: white;
+}
+
+span#nomeusuario{
+	position: relative;
+	top: 10px;
+	float: right;
+	right:40px;
+	color: white;
+}
+
+button#sair {
+	position: relative;
+	float: right;
+	text-decoration: none;
+	border:none;
+	background: none;
+	color: white;
+	top: 10px;
+	left: 120px;
+}
+
+/* Corpo */
+
+div#corpo {
+	position: relative;
+	width: 100%;
+	max-width: 997px;
+	top: 0;
+	background: #FFFFFF;
+	border:1px solid #cecece ;
+	margin: 0 auto;
+	left: 0;
+	height: auto;
+	min-height: 600px;
+}
+/* Ponto */
+div#campoponto {
+	position: relative;
+	height: 60px;
+	width: 98%;
+	left: 0.8%;
+	border: 1px solid black;
+	top: 30px;
+}
+
+label#ponto {
+	position: relative;
+	top: -12px;
+	left: 5px;
+	background: white;
+	color: #D29524;
+}
+
+button#saida {
+	position: relative;
+	height: 30px;
+	width: 90px;
+	left: 1%;
+}
+
+button#corrigir {
+	position: relative;
+	height: 30px;
+	width: 90px;
+	left: 2%;
+}
+/* Filtro */
+div#campofiltro {
+	position: relative;
+	height: 120px;
+	width: 98%;
+	left: 0.8%;
+	border: 1px solid black;
+	top: 50px;
+}
+
+label#filtro {
+	position: relative;
+	top: -12px;
+	left: 5px;
+	background: white;
+	color: #D29524;
+}
+
+label#lapessoas {
+	position: relative;
+	left: 2%;
+	top: -2px;
+	color: #D29524;
+}
+
+select#selecao {
+	position: relative;
+	left: 2%;
+	top: -2px;
+}
+
+hr#linha0 {
+	position: relative;
+	width: 96%;
+	left: 2%;
+}
+
+label#datainicio {
+	position: relative;
+	left: 2%;
+	top: 15px;
+	color: #D29524;
+}
+
+input[type="date"]#data1 {
+	position: relative;
+	top: 15px;
+	left: 25px;
+	width: 125px;
+}
+
+label#datafim {
+	position: relative;
+	left: 3%;
+	top: 15px;
+	color: #D29524;
+}
+
+input[type="date"]#data2 {
+	position: relative;
+	top: 15px;
+	left: 35px;
+	width: 125px;
+}
+
+/* but */
+
+button#dia1 {
+	position: relative;
+	border:none;
+	background: none;
+	top: 12px;
+	left: 5%;
+	text-decoration: underline;
+	color: #D29524;
+	cursor: pointer;
+}
+
+button#dia2 {
+	position: relative;
+	border:none;
+	background: none;
+	top: 30px;
+	left: 1%;
+	text-decoration: underline; 
+	color: #D29524;
+	cursor: pointer;
+}
+
+button#hoje {
+	position: relative;
+	border:none;
+	background: none;
+	top: 12px;
+	left: 7%;
+	text-decoration: underline; 
+	color: #D29524;
+	cursor: pointer;
+}
+
+button#mes {
+	position: relative;
+	border:none;
+	background: none;
+	top: 30px;
+	left: 3.7%;
+	text-decoration: underline; 
+	color: #D29524;
+	cursor: pointer;
+}
+
+input[type="checkbox"]#check1 {
+	position: relative;
+	top: 13px;
+	left: 62px;
+}
+
+label#remunerado {
+	position: relative;
+	top: 11px;
+	left: 70px;
+	color: #D29524;
+}
+
+input[type="checkbox"]#check2 {
+	position: relative;
+	top: 35px;
+	left: -37px;
+}
+
+label#noremu {
+	position: relative;
+	top: 33px;
+	left: -30px;
+	color: #D29524;
+}
+
+button#pesquisar {
+	position: relative;
+	left: 20px;
+	top: 22px;
+	height: 30px;
+	width: 70px;
+}
+
+/* Tabela */
+table#tabela1 {
+	position: relative;
+	top: 60px;
+	left: 0.8%;
+	margin: 0;
+	padding:0;
+	height: 10px;
+	border-collapse: collapse;
+}
+
+ td {
+	width: 80px;
+	border: 1px solid #854523;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background: #AB5F37;
+	text-align: center;
+	color: white;
+}
+
+.menor {
+	width: 50px;
+}
+
+td.atividade {
+	
+	width: 170px;
+	text-align: center;
+	margin: 0;
+}
+
+td.celula {
+	width: 135px;
+}
+
+td.coordenador {
+	width: 135px;
+}
+
+/*  tabela 2 */
+table#tabela2 {
+	position: relative;
+	top: 59px;
+	left: 0.8%;
+	border-collapse: collapse;
+
+}
+
+td#td2 {
+	background:#FAFFBD ;
+	color:#AB5F37;
+	border: 1px solid #CECECE;
+}
+
+.check9 {
+	width: 50px;
+}
+
+button#editar {
+	background: none;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #AB5F37;
+}
+
+/*  fim da tabela */
+
+hr#linha1 {
+	position: relative;
+	width: 98.3%;
+	left: 0.8%;
+	top: 70px;
+	background: #CECECE;
+	border: 1px solid #CECECE ;
+}
+
+label#th {
+position: relative;
+top: 90px;
+left: 0.8%;
+color: #AB5F37;
+font-weight: 600;
+}
+
+label#meta {
+	position: relative;
+	top: 90px;
+	float: right;
+	right: 0.8%;
+	color: #AB5F37;
+	font-weight: 600;
+}
+
+div#HA {
+	position: relative;
+	height: 15px;
+	width: 15px;
+	background: #FAFFBD;
+	top: 120px;
+	left: 0.8%;
+	border: 1px solid #CECECE;
+}
+
+label#labelHA {
+	position: relative;
+	top: 104px;
+	color: #D29524; 
+	left: 26px;
+}
+
+div#HAJ {
+	position: relative;
+	height: 15px;
+	width: 15px;
+	background:#FED03F ;
+	top: 120px;
+	left: 0.8%;
+	border: 1px solid #CECECE;
+}
+
+label#labelHAJ {
+	position: relative;
+	top: 105px;
+	color: #D29524; 
+	left: 26px;
+}
+/* rodape */
+footer#footer {
+	position:fixed;
+	background: #A14E24;
+	width: 100%;
+	height: 25px;
+	bottom: 0;
+	text-align: center;
+	color: white;
+}
+
+article#Copy {
+	position: relative;
+	top: 2px;
+}
+
+@media (min-width: 610px) and (max-width: 915px) {
+	div#cheks {
+		position: relative;
+		bottom: 52px;
+		left: 310px;
+		width: 270px;
+		height: 100px;
+	}
+
+	input[type="date"]#data2 {
+		top: 42px;
+		left: -185px;
+	}
+
+}
+
+@media (max-width: 915px){
+	input[type="date"]#data1 {
+		left: 13px;
+	}
+
+	label#datafim {
+		top: 42px;
+		left: -195px;
+	}
+
+	
+	div#dias {
+		left: 200px;
+		position: relative;
+		bottom: 15px;
+		padding: 0;
+	}
+
+	div#dias button#dia1 {
+		left: 36px;
+	}
+
+	div#dias button#dia2 {
+		left: -5px;
+	}
+
+	div#dias1 {
+		position: relative;
+		left: 235px;
+		bottom: 33px;
+		padding: 0;
+	}
+
+	div#dias1 button#hoje {
+		left: 58px;
+	}
+
+	div#dias1 button#mes {
+		left: 26px;
+	}
+
+	
+
+	button#pesquisar {
+		left: 520px;
+		top: -135px;
+	}
+
+	
+}
+
+@media(max-width: 610px) and (min-width: 10px) {
+		div#campofiltro {
+			height: 200px;
+			width: 280px;
+		}
+
+		label#datainicio {
+			left: 18px;
+		}
+
+		input[type="date"]#data1 {
+			left:30px; 
+		}
+
+		input[type="date"]#data2 {
+			left: 109px;
+			
+		}
+
+		div#cheks {
+			position: absolute;
+			top: 145px;
+			left: -47px;
+			height: 10px;
+			width: 220px;
+			
+
+		}
+
+		div#dias {
+			left: -20px;
+			top: 10px;
+			width: 200px;
+		}
+
+		div#dias1 {
+			left: 10px;
+			top: -8px;
+			width: 200px;
+		}
+		button#pesquisar {
+			left: 168px ;
+			top: -17px;
+			height: 90px;
+		}
+
+		div#campoponto {
+			width: 280px;
+		}
+
+		span#copy {
+			display: none;
+		}
+	}
